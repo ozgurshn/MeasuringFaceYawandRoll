@@ -1,7 +1,11 @@
-# Selecting a Selfie Based on Capture Quality
+# Face Detection and Measuring Face Yaw and Roll
 
-Compare face capture quality in a set of images using Vision.
+Using VNDetectFaceRectanglesRequest to detect face yaw and roll angle. This is modified from Apple's sample code (Selecting a Selfie Based on Capture Quality
+)
 
 ## Overview
 
-- Note: For more information about this sample code project, see [WWDC 2019 Session 222: Understanding Images in Vision Framework](https://developer.apple.com/videos/play/wwdc19/222/).
+![](resources/IMG_2365.PNG)
+
+![](resources/IMG_2366.PNG)
+

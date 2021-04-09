@@ -25,7 +25,8 @@ class CameraViewController: UIViewController {
         
         // This sample code supports portrait device orientaion only.
         let handler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, orientation: .leftMirrored, options: requestOptions)
-        let faceDetectionRequest = VNDetectFaceCaptureQualityRequest()
+        let faceDetectionRequest = VNDetectFaceRectanglesRequest()
+      
         do {
             try handler.perform([faceDetectionRequest])
             guard let faceObservations = faceDetectionRequest.results as? [VNFaceObservation] else {
